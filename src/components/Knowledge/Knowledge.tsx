@@ -3,9 +3,9 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 import Tech from "./Tech/Tech";
 const Knowledge = () => {
   return (
-    <div className="w-full h-fit flex justify-center items-center flex-col gap-12">
+    <section className="w-full h-fit flex justify-center items-center flex-col gap-12">
       <SectionHeading title="مهارت‌ها" />
-      <div className="w-full flex gap-5 flex-wrap justify-center items-center flex-row-reverse">
+      <div className="w-full place-items-center grid grid-cols-4 md:!grid-cols-1 lg:grid-cols-3 gap-2">
         <Tech name="HTML & CSS" percent={90} />
         <Tech name="Tailwind.css" percent={90} />
         <Tech name="Sass" percent={80} />
@@ -15,7 +15,7 @@ const Knowledge = () => {
         <Tech name="TypeScript" percent={40} />
         <Tech name="Next.js" percent={40} />
       </div>
-    </div>
+    </section>
   );
 };
 
