@@ -12,6 +12,9 @@
     }
 }
 @layer base {
+    * {
+        scroll-behavior: smooth;
+    }
     .bg-center_bottom {
         background-position: center bottom;
     }

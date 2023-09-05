@@ -13,14 +13,13 @@ function Menu(): JSX.Element {
   };
   return (
     <div className="w-fit h-full flex justify-center items-center gap-6">
-      <MenuItem link={"/about"} text={"درباره من"} />
-      <MenuItem link={"/"} text={"ارتباط با من"} />
+      <MenuItem link={"#about"} text={"درباره من"} />
+      <MenuItem link={"#"} text={"ارتباط با من"} />
       <MenuItem link={"#"} text={"مهارت‌ها"} />
-      <MenuItem link={"/contact"} text={"پروژه ها"} />
+      <MenuItem link={"#contact"} text={"پروژه ها"} />
       <button
         onClick={handleDownloadResume}
-        className="w-fit h-fit px-8 py-4 bg-secondary rounded-md shadow-primary-shadow shadow-black text-white mr-5"
-      >
+        className="w-fit h-fit px-8 py-4 bg-secondary rounded-md shadow-primary-shadow shadow-black text-white mr-5">
         دانلود رزومه
       </button>
     </div>
