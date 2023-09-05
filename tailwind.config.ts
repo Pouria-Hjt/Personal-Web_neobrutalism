@@ -37,6 +37,8 @@ const config: Config = {
       },
       backgroundImage: {
         "header-image": "url('/thumbsup_3d.png')",
+        "about-image": "url('/thumbsup_3d.png')",
+
       }
     },
   },
