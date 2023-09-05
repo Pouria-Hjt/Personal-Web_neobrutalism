@@ -17,6 +17,7 @@ const config: Config = {
         quinary: "#FF5710",
         senary: "#59CE89",
         septenary: "#EEFDFF",
+        octonary: "#ffe",
       },
       // make tailwind desktop first
       screens: {
