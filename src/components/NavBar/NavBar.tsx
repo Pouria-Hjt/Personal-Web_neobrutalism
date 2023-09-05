@@ -76,7 +76,7 @@ function NavBar(): JSX.Element {
       </nav>
       <div
         ref={sideMenuRef}
-        className="w-0 h-screen bg-octonary fixed top-0 overflow-hidden transition-all">
+        className="w-0 h-screen bg-octonary fixed top-0 z-50 overflow-hidden transition-all">
         <div className="w-full h-full flex flex-col items-center p-10 gap-3">
           <svg
             onClick={sideMenuHandeler}
