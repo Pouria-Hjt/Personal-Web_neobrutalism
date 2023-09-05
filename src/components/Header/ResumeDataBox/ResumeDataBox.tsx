@@ -12,7 +12,7 @@ const ResumeDataBox = () => {
       &nbsp;&nbsp;&nbsp;&nbsp;
       <span className="text-[#D32F2F]">await</span>{" "}
       <span className="text-secondary">fetch</span>
-      ( `&apos;`https://poriw.ir/resume `&apos;`) <br />
+      (&apos;https://poriw.ir/resume&apos;) <br />
       &nbsp;&nbsp;&nbsp;const data =
       <span className="text-[#D32F2F]">await</span>{" "}
       <span className="text-tertiary">fetchData</span>
