@@ -10,6 +10,13 @@
             #6E61FF 50% 100%
       );
     }
+    .bg-gradient__works {
+        background: linear-gradient(
+            to bottom,
+            #2D8AE0 0 50%,
+            #fff 50% 100%
+      );
+    }
     .p-page {
         @apply px-[300px] xl:px-28 md:!px-5;
     }
