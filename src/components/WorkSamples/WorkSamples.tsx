@@ -3,7 +3,9 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 import Sample from "./Sample/Sample";
 const WorkSamples = () => {
   return (
-    <section className="w-full h-fit flex flex-col justify-center items-center my-14 py-14 bg-gradient__works gap-14 p-page">
+    <section
+      id="projects"
+      className="w-full h-fit flex flex-col justify-center items-center my-14 py-14 bg-gradient__works gap-14 p-page">
       <SectionHeading title="نمونه کارها" />
       <div className="w-full h-fit flex justify-center items-start gap-4 lg:flex-col">
         <Sample

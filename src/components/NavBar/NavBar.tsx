@@ -103,12 +103,20 @@ function NavBar(): JSX.Element {
             link={"#about"}
             text={"درباره من"}
           />
-          <MenuItem event={sideMenuHandeler} link={"#"} text={"ارتباط با من"} />
-          <MenuItem event={sideMenuHandeler} link={"#"} text={"مهارت‌ها"} />
+          <MenuItem
+            event={sideMenuHandeler}
+            link={"#projects"}
+            text={"پروژه ها"}
+          />
+          <MenuItem
+            event={sideMenuHandeler}
+            link={"#ability"}
+            text={"مهارت‌ها"}
+          />
           <MenuItem
             event={sideMenuHandeler}
             link={"#contact"}
-            text={"پروژه ها"}
+            text={"ارتباط با من"}
           />
         </div>
       </div>

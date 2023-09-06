@@ -24,7 +24,9 @@ const ContactMe = () => {
     }
   };
   return (
-    <section className="w-full h-fit flex justify-center items-center bg-quinary py-14 flex-col gap-12 p-page">
+    <section
+      id="contact"
+      className="w-full h-fit flex justify-center items-center bg-quinary py-14 flex-col gap-12 p-page">
       <SectionHeading title="تماس با من" />
       <div className="w-full h-fit bg-senary p-6 rounded-2xl shadow-tertiary-shadow flex gap-9 md:flex-col md:justify-center md:items-center">
         <div className="w-2/5 md:w-full h-80 bg-octonary rounded-2xl flex justify-center items-center">
